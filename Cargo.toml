@@ -1,7 +1,16 @@
 [package]
 name = "jqex"
 version = "0.1.0"
+authors = ["Abhishek Tripathi <abhishek.tripathi456@gmail.com>"]
+description = "A tool to convert JSON to Elixir-style maps"
+license = "MIT"
+repository = "https://github.com/TwistingTwists/jqex"
 edition = "2021"
 
 [dependencies]
 serde_json = "1.0"
+
+
+[[bin]]
+name = "jqex"
+path = "src/main.rs"
